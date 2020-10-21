@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Tabla periodica</title>
+        <meta name="author" content="Exequiel Andrade Rojas">
+        <meta name="description" content= "Tabla periodica con nombres de importantes mujeres mostrando sus ramas de estudio">
+        <meta name="keywords" content= "Tabla periodica,Cientificas">
+        <link rel="stylesheet" href="css/inicio.css">
+    </head>
+
+    <body>
+        <script src="js/app.js"></script>
+
+        <table border ="2" style="margin-left: 1cm;">
+                <tr class="fila1">
+                    <td class="bloque-natural-general">Ciencias naturales</td>
+                    <td class="bloque-matematica-general">Matemáticas</td>
+                    <td class="bloque-quimica-general">Químicas</td>
+                </tr>
+
+                <tr class="fila2">  
+                    <td class="bloque-inventor-general">Inventoras/ingenieras</td>
+                    <td class="bloque-astronomia-general">Astrónomas</td>
+                    <td class="bloque-medica-general">Bioquímica/biología/medicina</td>
+                </tr>  
+
+                <tr class="fila3">
+                    <td class="bloque-paleontologa-general">Paleontólogas</td>
+                    <td class="bloque-fisica-general">Fisicas</td>
+                    <td class="bloque-primatologia-general">Primatólogas</td>
+                </tr> 
+                
+        </table>
+
+        <table border ="2">
+            <tr class="fila1">
+                <td class="bloque-natural" onclick="shownombres('Maria Sibylla Merian');"> Sy</td> 
+                <td colspan="16"></td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Yw </td>
+            </tr>
+
+            <tr class="fila2">
+                <td class="bloque-natural" onclick="shownombres('Maria Stopes');"> St</td> 
+                <td class="bloque-inventor" onclick="shownombres('Hedy Lamarr');"> La </td>
+                <td colspan="10"></td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Hg</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Bl </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Ap</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Sv </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Lm </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Sn</td> 
+        
+                
+            </tr>
+
+            <tr class="fila3">
+                <td class="bloque-natural" onclick="shownombres('Inge Lehman');"> Lh</td> 
+                <td class="bloque-inventor" onclick="shownombres('Hertha Ayrton');"> Ay </td>
+                <td colspan="10"></td>
+                <td class="bloque-quimica" onclick="shownombres('Dorothy Crowfoot Hodgkin');"> Cw</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Sc </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> T</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Wt </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Nu </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> El</td>          
+            </tr>
+
+            <tr class="fila4">
+            <td class="bloque-natural" onclick="shownombres('Florence Bascom');"> Ba</td> 
+            <td class="bloque-inventor" onclick="shownombres('Josephine Cochrane');"> Cr </td>
+            <td class="bloque-paleontologa" onclick="shownombres('Mary Anning');"> An</td> 
+            <td class="bloque-matematica" onclick="shownombres('Emilie du Chátelet');"> C </td>
+            <td class="bloque-matematica" onclick="shownombres('Mary Sommerville');"> Sm</td> 
+            <td class="bloque-matematica" onclick="shownombres('Emmy Noether');"> No </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Wk </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Fl</td> 
+
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Py</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Cu </td>
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Mt</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Dr </td>
+            <td class="bloque-quimica"> Fr</td> 
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Mg </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Bw </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Kl</td> 
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Br </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Co</td>
+            
+        </tr>
+
+        <tr class="fila5">
+            <td class="bloque-natural" onclick="shownombres('Wangari Maathai');"> Mh</td> 
+            <td class="bloque-inventor" onclick="shownombres('Grace Hopper');"> Ho </td>
+            <td class="bloque-paleontologa" onclick="shownombres('Mary Leakey');"> Lk</td> 
+            <td class="bloque-matematica" onclick="shownombres('Laura Bassi');"> Bs </td>
+            <td class="bloque-matematica" onclick="shownombres('Sophie Germain');"> Ge</td> 
+            <td class="bloque-matematica" onclick="shownombres('Sofia Kovalevskaya');"> Ko </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Hr </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Lv</td> 
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Ru</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Jc</td>
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Gp</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Jk </td>
+            <td class="bloque-quimica"onclick="shownombres('Ida Noddack');"> Nd</td> 
+            <td class="bloque-quimica" onclick="shownombres('Ellen Richards');"> Rc </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Ng </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Ch</td> 
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Gr </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Ck</td>
+            
+        </tr>
+        
+        <tr class="fila6">
+            <td class="bloque-natural"onclick="shownombres('Marie Tharp y Sylvia Earle');"> Th</td> 
+            <td class="bloque-inventor" onclick="shownombres('Stepganie Kwolek');"> K </td>
+            <td class="bloque-primatologia" onclick="shownombres('Jane Goodall, Dian Fossey & Biruté Galdikas');"> Gd</td> 
+            <td class="bloque-matematica" onclick="shownombres('Maria Agnessi');"> Ag </td>
+            <td class="bloque-matematica" onclick="shownombres('Maryam Mirzajani');"> Mz</td> 
+            <td class="bloque-matematica" onclick="shownombres('Hipatia de Alejandría');"> H </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Mi </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Cn</td> 
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Be</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Pe</td>
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Sr</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Tk </td>
+            <td class="bloque-quimica" onclick="shownombres('Marie Anne Paulze');"> Pz</td> 
+            <td class="bloque-quimica" onclick="shownombres('Katharine Burr Blodgett');"> Bb </td>
+            <td class="bloque-quimica" onclick="shownombres('Ada Yonath');"> Yn </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Do</td> 
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Y </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> B</td>
+             
+        </tr>
+
+        <tr class="fila7">
+            <td class="bloque-natural" onclick="shownombres('Rachel Carson');"> Ca</td> 
+            <td class="bloque-inventor" onclick="shownombres('Margaret Hamilton');"> Ha </td>
+            <td class="bloque-matematica" onclick="shownombres('Ada Lovelace');"> Lo</td> 
+            <td class="bloque-matematica" onclick="shownombres('Evelyn Boyd Granville');"> Gv </td>
+            <td class="bloque-matematica" onclick="shownombres('Katherine Johnson');"> Jh</td> 
+            <td class="bloque-matematica" onclick="shownombres('Nicole-Reine de Lepaute');"> Lp </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Z </td>
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Rm</td> 
+            <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Ti</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> W</td>
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Bu</td> 
+            <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Fy </td>
+            <td class="bloque-quimica" onclick="shownombres('Agnes Pockles');"> Pc</td> 
+            <td class="bloque-quimica" onclick="shownombres('Kathleen Lonsdale');"> Ln </td>
+            <td class="bloque-quimica" onclick="shownombres('Frances H. Amold');"> Al </td>
+            <td class="bloque-quimica" onclick="shownombres('Marie Meurdrac & Jane Marcet');"> Me</td> 
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Bt </td>
+            <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Ms</td>
+    
+        </tr>
+        </table>
+ 
+        <table border ="" style="margin-left: 6cm;">
+        <div class="tabla2">   
+            <tr class="ApartadoFila1">
+                <td class="bloque-inventor" onclick="shownombres('Pilar Carbonero');"> Cb</td> 
+                <td class="bloque-matematica" onclick="shownombres('M. Andrea Casamayor');"> Cs </td>
+                <td class="bloque-matematica" onclick="shownombres('María Wonenburger');"> Wo</td> 
+                <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> F </td>
+                <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Ct</td> 
+                <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Yz </td>
+                <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Mb </td>
+                <td class="bloque-quimica" onclick="shownombres('Dorotea Barneés y las químicas españolas de la edad de plata');"> Bn</td> 
+                <td class="bloque-quimica" onclick="shownombres('Maunuela Juárez');"> Ju</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Sl</td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Bc</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Zn </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion');"> Mo </td> 
+                <td class="bloque-paleontologa" onclick="shownombres('María Marinón Torres');"> Ma </td>
+        
+            </tr>
+
+            <tr class="ApartadoFila2"></div>
+                <td class="bloque-inventor" onclick="shownombres('Ángela Ruiz Robles');"> Rr</td> 
+                <td class="bloque-matematica" onclick="shownombres('M. Antónia Canals');"> Cl </td>
+                <td class="bloque-matematica" onclick="shownombres('Pilar Bayer');"> By</td> 
+                <td class="bloque-astronomia" onclick="shownombres('Sin informacion');"> Fe </td>
+                <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Rd </td> 
+                <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Mr </td>
+                <td class="bloque-fisica" onclick="shownombres('Sin informacion');"> Si </td>
+                <td class="bloque-quimica" onclick="shownombres('Gertrudis de la Fuente');"> Fu </td> 
+
+                <td class="bloque-quimica" onclick="shownombres('Rosa M. Menéndez')"> Mn</td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion')"> Vr </td>
+                <td class="bloque-medica" onclick="shownombres('Sin informacion')"> Ni </td> 
+                <td class="bloque-medica" onclick="shownombres('Sin informacion')"> Bd </td>
+                <td class="bloque-natural" onclick="shownombres('Ángeles Alvariño');"> Av </td> 
+                <td class="bloque-natural" onclick="shownombres('Josefina Castellví')"> Cv </td>
+        
+            </tr>
+        </table>
+
+        <h2 id= "shownombres" > Presione un elemento</h2>
+    
+    </body>
+
+</html>
+
+            

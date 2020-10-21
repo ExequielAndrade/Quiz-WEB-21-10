@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+  background-color: white;
+  padding: 20px;
+  color: black;
+}
+a {
+  color: #7baad1;
+}
+#caja {
+  width: 120px;
+  height: 120px;
+  border: 6px solid #000000;
+  text-align: center;
+}
+
+h2{
+  margin-left: 10cm;
+}
+table{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tabla2{
+  margin: 50px;
+  
+}
+
+.fila1{
+  text-align: center;
+}
+.fila2{
+  text-align: center;
+}
+.fila3{
+  text-align: center;
+}
+.fila4{
+  text-align: center;
+}
+.fila5{
+  text-align: center;
+}
+.fila6{
+  text-align: center;
+}
+.fila7{
+  text-align: center;
+}
+.fila8{
+  text-align: center;
+}
+.fila9{
+  text-align: center;
+}
+
+.ApartadoFila1{
+  text-align: center;
+}
+
+.ApartadoFila1{
+  text-align: center;
+}
+
+.ApartadoFila2{
+  text-align: center;
+}
+
+
+
+.bloque-natural{
+  height: 50px;
+  width:  50px;
+  color: white;
+  background-color: #32804a;
+  cursor: pointer;
+  
+
+}
+
+.bloque-natural-general{
+  height: 50px;
+  width:  8cm;
+  color: white;
+  background-color: #32804a;
+
+
+}
+
+.bloque-inventor{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color: rgb(73, 73, 160);
+  cursor: pointer;
+}
+
+.bloque-inventor-general{
+  color: white;
+  height: 50px;
+  width:  8cm;
+  background-color: rgb(73, 73, 160);
+
+}
+
+.bloque-paleontologa{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color: rgb(58, 117, 226);
+  cursor: pointer;
+}
+
+.bloque-paleontologa-general{
+  color: white;
+  height: 50px;
+  width:  8cm;
+  background-color: rgb(58, 117, 226);
+
+}
+
+.bloque-matematica{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color: purple;
+  cursor: pointer;
+}
+
+.bloque-matematica-general{
+  color: white;
+  height: 50px;
+  width:  8cm;
+  background-color: purple;
+
+}
+
+.bloque-astronomia{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color:red;
+  cursor: pointer;
+}
+
+.bloque-astronomia-general{
+  color: white;
+  height: 50px;
+  width:  8cm;
+  background-color:red;
+
+}
+
+.bloque-fisica{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color:orange;
+  cursor: pointer;
+}
+
+.bloque-fisica-general{
+  color: white;
+  height: 50px;
+  width:  8cm;
+  background-color:orange;
+
+}
+
+.bloque-quimica{
+  color: black;
+  height: 50px;
+  width:  50px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.bloque-quimica-general{
+  color: black;
+  height: 50px;
+  width:  8cm;
+  background-color: yellow;
+
+}
+
+.bloque-medica{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color: #69ca81;
+  cursor: pointer;
+}
+
+.bloque-medica-general{
+  color: white;
+  height: 50px;
+  width:  8cm;
+  background-color: #69ca81;
+
+}
+
+.bloque-primatologia{
+  color: white;
+  height: 50px;
+  width:  50px;
+  background-color: #4deeea;
+  cursor: pointer;
+}
+
+.bloque-primatologia-general{
+  color: white;
+  height: 1cm;
+  width:  8cm;
+  background-color: #4deeea;
+  
+}
+
